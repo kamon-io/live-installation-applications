@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "cd1f915d-113b-482b-b6bf-0c863f4272a3",
+		"name": "Bouncer Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18860980"
+	},
+	"item": [
+		{
+			"name": "Get Organization API Keys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/bouncer/organizations/7/keys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"bouncer",
+						"organizations",
+						"7",
+						"keys"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

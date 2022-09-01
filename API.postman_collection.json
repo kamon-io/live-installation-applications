@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "1dc8a432-2671-4b08-81a4-10b518bfec9f",
+		"name": "API Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18860980"
+	},
+	"item": [
+		{
+			"name": "GET City Events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/api/v1/cities/JVW6QWNH/events?apiKey=AZDGSZW3Y9ADUY7Z",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"v1",
+						"cities",
+						"JVW6QWNH",
+						"events"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "AZDGSZW3Y9ADUY7Z"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/api/v1/events/JVW6QWNH-rYFwrgMi?apiKey=S1KH2ND8TA1G60J0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"v1",
+						"events",
+						"JVW6QWNH-rYFwrgMi"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "S1KH2ND8TA1G60J0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Create Reservation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "7"
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/v1/events/JVW6QWNH-rYFwrgMi/reservations?apiKey=S1KH2ND8TA1G60J0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"v1",
+						"events",
+						"JVW6QWNH-rYFwrgMi",
+						"reservations"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "S1KH2ND8TA1G60J0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Event Reservations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/api/v1/events/JVW6QWNH-rYFwrgMi/reservations?apiKey=S1KH2ND8TA1G60J0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"v1",
+						"events",
+						"JVW6QWNH-rYFwrgMi",
+						"reservations"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "S1KH2ND8TA1G60J0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

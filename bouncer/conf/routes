@@ -1,0 +1,11 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+GET     /bouncer/keys/:id                       controllers.KeysController.get(id: String)
+GET     /bouncer/organizations/:id/keys         controllers.OrganizationController.keys(id: Long)
+POST    /bouncer/organizations/:id/keys         controllers.OrganizationController.create(id: Long)
+DELETE  /bouncer/organizations/:id/keys/:key    controllers.OrganizationController.revoke(id: Long, key: String)
+
+GET     /status                                 controllers.StatusController.get()
